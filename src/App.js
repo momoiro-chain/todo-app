@@ -61,10 +61,10 @@ const App = () => {
       </div>
 
 
-{/* 編集の時に表示されるやつ */}
+{/* 編集の時に表示されるところ */}
       {/* <EditForm /> */}
 
-{/* ↓普段表示されるやつ */}
+{/* ↓普段表示されるところ */}
 <div className="todo-area">
         <ul>
           {todoList.map((todo) => {
